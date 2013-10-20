@@ -1,0 +1,76 @@
+`20.10.2013
+Zad 1
+'''c
+#include <stdio.h>
+
+main(){
+  int n, x=0, suma=0;
+  printf("Podaj liczbe: ");
+  scanf("%d",&n);
+  for(n; n>=1; n--)
+    {
+      suma=suma+n*n; 
+    }
+  printf("wynik x: %d\n",suma);
+}
+'''
+
+Zad 2
+'''c
+#include <stdio.h>
+
+main(){
+  int n1, n2, n3;
+  n1=5*3*8%2-3;
+  printf("n1: %d\n",n1);
+  n2=2%2+2*2-2/2;
+  printf("n2: %d\n",n2);
+  n3=2*4*(5+9/2);
+  printf("n3: %d\n",n3);
+}
+'''
+
+Zad 3
+'''c
+#include <stdio.h>
+int main(){
+  int tabela[]={1,2,4,6,12};
+  int n;
+  for(n=4; n>=0; n--)
+  printf("%d \n", tabela[n]);
+
+
+    return 0;
+}
+'''
+
+Zad 4.1
+'''c
+#include <stdio.h>
+
+int main(){
+  int i;
+  for(i; i<=2010; i=i*2);
+  {
+    printf("%d \n", i);
+}
+
+
+}
+'''
+
+Zad 4.2
+'''c
+#include <stdio.h>
+
+main(){
+  int i;
+
+  while(i<=2010){
+    i=i2;
+
+printf("%d", i);
+
+  }
+  }
+'''
